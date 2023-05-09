@@ -15,14 +15,14 @@ function App() {
     const location = useGeoLocation();
     const location2 = JSON.stringify(location.coordinates.lat);
     const location3 = JSON.stringify(location.coordinates.lng);
-    console.log(location2, location3);
+//     console.log(location2, location3);
     useEffect(() => {
         const fetchApi = async () => {
             // setX(true);
             const url = `https://api.openweathermap.org/data/2.5/weather?lat=${location2}&lon=${location3}&units=metric&appid=aac86e38c6df410e6010639de4a0a13f`;
             const response = await fetch(url);
             const resJson = await response.json();
-            console.log(resJson);
+//             console.log(resJson);
             setCity(resJson.name);
             setA(resJson.sys.country);
             setTemp(resJson.main.temp);
