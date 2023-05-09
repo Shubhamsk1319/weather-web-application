@@ -118,3 +118,8 @@ hr {
     height: 150vh;
   }
 }
+@media(max-width:576px){
+  #sw{
+    width: 100% !important;
+  }
+}
