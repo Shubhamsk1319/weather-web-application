@@ -39,7 +39,7 @@ function Demo() {
             <div className="container vh-100 w-75 d-flex align-items-center justify-content-center main">
                 <div className="row h-75 w-100">
                     <div className="col-md-8 bg-left p-4 d-flex flex-column justify-content-end">
-                        <h2 className="text-end text-white display-6 fw-normal">{city}</h2>
+                        <h2 className="text-end text-white display-6 fw-normal">Shiv Shakti Nagar</h2>
                         <h2 className="text-end text-white display-6 fw-normal">{a}</h2>
                         <div className="row mt-auto text-white">
                             <div className="col-7">
