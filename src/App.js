@@ -4,7 +4,7 @@ import useGeoLocation from "./useGeoLocation";
 import RightSection from "./RightSection";
 import "./index.css";
 
-function Demo() {
+function App() {
     const x = new Date();
     const [curr, setCurr] = useState(x);
     // const [y, setY] = useState(null);
@@ -59,4 +59,4 @@ function Demo() {
         </>
     );
 }
-export default Demo;
+export default App;
