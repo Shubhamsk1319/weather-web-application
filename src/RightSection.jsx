@@ -16,8 +16,8 @@ const RightSection = (props) => {
     const [windSpeed, setWindSpeed] = useState(null);
     // const [icon, setIcon] = useState(null);
     const [icon2, setIcon2] = useState("Haze");
-    console.log(icon2);
-    console.log(city2);
+//     console.log(icon2);
+//     console.log(city2);
     // console.log(icon);
     useEffect(() => {
         const fetchApi = async () => {
@@ -25,7 +25,7 @@ const RightSection = (props) => {
             const url = `https://api.openweathermap.org/data/2.5/weather?q=${city2}&units=metric&appid=aac86e38c6df410e6010639de4a0a13f`;
             const response = await fetch(url);
             const resJson = await response.json();
-            console.log(resJson);
+//             console.log(resJson);
             // setCity(resJson.name);
             // setA(resJson.sys.country);
             setTemp2(resJson.main.temp);
